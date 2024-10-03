@@ -58,7 +58,7 @@ export default function Footer() {
         <Stack direction={"row"} spacing={6}>
           <SocialButton label={"GitHub"}>
             <a
-              href="https://github.com/MukulKolpe/ETHGlobalSG"
+              href="https://github.com/AlexAnon88/DAOTown"
               target="_blank"
               rel="noreferrer"
             >
