@@ -4,7 +4,6 @@ pragma solidity 0.8.26;
 import "./GovernanceToken.sol";
 
 contract CreateGovernanceToken {
-    //address contractAddress = address(new GovernanceToken(_userAddress));
     mapping(uint256 => address[]) public userIdtoDeployedTokens;
 
     function deployToken(
@@ -19,7 +18,7 @@ contract CreateGovernanceToken {
         );
         userIdtoDeployedTokens[_userId].push(tokenAddress);
         GovernanceToken govtToken = GovernanceToken(tokenAddress);
-        govtToken.transfer(funcCaller, _totalSupply * 1000000000000000000);
+        govtToken.transfer(funcCaller, _totalSupply * 10 ** 18);
     }
 
     function getBalance(
@@ -30,7 +29,7 @@ contract CreateGovernanceToken {
         return govtToken.balanceOf(_userAddress);
     }
 
-    function getTotalTokesnDeployed(
+    function getTotalTokensDeployed(
         uint256 _userId
     ) public view returns (uint256) {
         return userIdtoDeployedTokens[_userId].length;
