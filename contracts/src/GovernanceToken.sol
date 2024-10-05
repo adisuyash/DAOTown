@@ -10,7 +10,7 @@ contract GovernanceToken is ERC20, ERC20Burnable, ERC20Permit {
         string memory _tokenName,
         string memory _tokenSymbol,
         uint256 _totalSupply
-    ) ERC20(_tokenName, _tokenSymbol) ERC20Permit("MyToken") {
+    ) ERC20(_tokenName, _tokenSymbol) ERC20Permit(_tokenName) {
         _mint(msg.sender, _totalSupply * 10 ** decimals());
     }
 }
