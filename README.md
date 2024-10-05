@@ -1,6 +1,8 @@
-# DAOTown 🚀
+# DAOTown - Create DAOs in minutes!
 
-Managing DAOs requires technical expertise, creating high entry barriers and inefficiencies. Our project aims to streamline DAO activities, including governance and tokenomics, through a decentralized infrastructure. By lowering these barriers, we enhance accessibility and efficiency, enabling broader participation and user-friendly DAO management for communities, organizations, and individuals.
+DAOTown on NeoX T4 revolutionizes DAO management by breaking down technical barriers for seamless governance and tokenomics.
+
+Managing DAOs often demands technical skills, limiting participation. Our project simplifies governance and tokenomics using decentralized infrastructure, making DAO management more accessible, efficient, and user-friendly for all.
 
 ## Tech Stack 🧰
 
