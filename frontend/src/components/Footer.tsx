@@ -52,13 +52,13 @@ export default function Footer() {
         align={{ base: "center", md: "center" }}
       >
         <b>
-          <Text>Made with 💙 by Alex Anon for HackQuest's Neo X Grind Hackathon September 2024</Text>
+          <Text>Made with 💙 during the Tech Fairness Hackathon 2025</Text>
         </b>
 
         <Stack direction={"row"} spacing={6}>
           <SocialButton label={"GitHub"}>
             <a
-              href="https://github.com/AlexAnon88/DAOTown"
+              href="https://github.com/adisuyash/DAOTown"
               target="_blank"
               rel="noreferrer"
             >
